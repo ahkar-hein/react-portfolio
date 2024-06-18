@@ -32,7 +32,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <button className="bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg">
-                    Send Massage
+                    Send Message
                 </button>
             </form>
         </div>

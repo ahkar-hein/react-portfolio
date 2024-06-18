@@ -3,16 +3,25 @@ import WorkItem from "./Workitem";
 
 const data = [
     {
-        year: 2021,
-        title: "Freelance Developer at garment factory to create customized web application",
-        duration: "5 months",
-        detail: "Create web application using following technologies: HTML, CSS, JavaScript and MySQL"
+        year: 2023,
+        title: "Full-Stack Web Developer",
+        company: "Beyond Borders Visa and Education Service",
+        duration: "Present",
+        detail: "Developed a full-stack web application using MERN stack (MongoDB, Express, React.js, Node.js) to optimize visa and education services, enhancing user experience and operational efficiency."
     },
     {
         year: 2022,
-        title: "DoorDash Driver",
+        title: "Freelance Developer",
+        company: "Upwork, Remote",
         duration: "Present",
-        detail: "Food Delivery"
+        detail: "Delivered high-quality software solutions for over 15 clients, consistently meeting project deadlines and maintaining a 95% client satisfaction rate."
+    },
+    {
+        year: 2020,
+        title: "Full Stack Web Developer",
+        company: "Hyatt Knitwear",
+        duration: "6 months",
+        detail: "Conceptualize, design and develop the web application which is enabling the generation of the customized barcode using HTML,CSS, JavaScript and MySQL."
     },
 ]
 
@@ -24,6 +33,7 @@ const Work = () => {
                 <WorkItem 
                 key={idx}
                 year={item.year}
+                company={item.company}
                 title={item.title}
                 duration={item.duration}
                 detail={item.detail}
