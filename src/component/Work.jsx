@@ -3,11 +3,11 @@ import WorkItem from "./Workitem";
 
 const data = [
     {
-        year: 2023,
-        title: "Full-Stack Web Developer",
-        company: "Beyond Borders Visa and Education Service",
+        year: 2024,
+        title: "Electro-Mechanical Assembly Operator",
+        company: "Siemens Energy",
         duration: "Present",
-        detail: "Developed a full-stack web application using MERN stack (MongoDB, Express, React.js, Node.js) to optimize visa and education services, enhancing user experience and operational efficiency."
+        detail: "Assembled and tested electro-mechanical components, ensuring high-quality production standards."
     },
     {
         year: 2022,
