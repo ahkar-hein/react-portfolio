@@ -13,7 +13,7 @@ const About = () => {
           <div className="flex justify-center md:justify-start">
             <div className="relative">
               <img
-                src="/src/assets/profile.jpeg"
+                src="https://github.com/ahkar-hein/react-portfolio/blob/main/src/assets/profile.jpeg?raw=true"
                 alt="Ahkar Hein"
                 className="w-56 h-64 object-cover object-top rounded-2xl shadow-xl"
               />
