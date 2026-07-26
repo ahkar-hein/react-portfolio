@@ -30,12 +30,12 @@ const projects = [
     featured: false,
   },
   {
-    title: "Weather Dashboard",
-    description: "A weather app that shows current and 5-day forecast for any city using the OpenWeatherMap API.",
-    tech: "HTML, CSS, JavaScript, OpenWeatherMap API",
-    github: "https://github.com/ahkar-hein/Weather-Dashboard",
-    live: "https://ahkar-hein.github.io/Weather-Dashboard/",
-    tags: ["JavaScript", "API"],
+    title: "AlgoViz",
+    description: "An interactive algorithm visualizer that animates sorting algorithms step by step. Watch bubble sort and selection sort in action with color-coded comparisons and real-time animation.",
+    tech: "React, Vite, JavaScript, Tailwind CSS",
+    github: "https://github.com/ahkar-hein/algo-viz",
+    live: "https://algo-viz-cyan.vercel.app/",
+    tags: ["React", "Algorithms", "Data Structures"],
     featured: false,
   },
 ];
