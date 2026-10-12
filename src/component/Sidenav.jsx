@@ -14,7 +14,7 @@ const Sidenav = () => {
     { href: "#skills", icon: <GrProjects size={18} />, label: "Skills" },
     { href: "#work", icon: <MdOutlineWorkOutline size={18} />, label: "Work" },
     { href: "#projects", icon: <AiOutlineProject size={18} />, label: "Projects" },
-    { href: "https://drive.google.com/file/d/1kSb1HAtGfEui4h4UxycitWYAjZTaowpb/view?usp=drive_link", icon: <BsPerson size={18} />, label: "Resume", external: true },
+    { href: "/Ahkar_Hein_Resume.pdf", icon: <BsPerson size={18} />, label: "Resume", external: true },
     { href: "#contact", icon: <AiOutlineMail size={18} />, label: "Contact" },
   ];
 

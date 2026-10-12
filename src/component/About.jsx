@@ -26,9 +26,11 @@ const About = () => {
               Hi, I am Ahkar — Full Stack Developer
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              I am a self-taught developer based in Pomona, CA with a passion for building
-              full-stack web applications that solve real problems. My primary stack is
-              MERN and I am actively expanding into Python and AI integrations.
+              I am a software developer based in San Jose, CA with an M.S. in Software
+              Development. I build full-stack web applications with the MERN stack, Python
+              FastAPI, and PHP/MySQL. By day I work as a Production Technician at PsiQuantum,
+              aligning photonic chips in a cleanroom, and my goal is to grow into Automation
+              Software or Industrial Engineering, where code and manufacturing meet.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
               My most recent project Sentry is a neighborhood safety platform
@@ -51,7 +53,7 @@ const About = () => {
             </div>
             <div>
               <p className="font-semibold text-[#001b5e]">Location</p>
-              <p className="text-gray-500 text-sm">Pomona, California, USA</p>
+              <p className="text-gray-500 text-sm">San Jose, California, USA</p>
             </div>
           </div>
 
@@ -61,7 +63,7 @@ const About = () => {
             </div>
             <div>
               <p className="font-semibold text-[#001b5e]">Experience</p>
-              <p className="text-gray-500 text-sm">Freelance Developer since 2022</p>
+              <p className="text-gray-500 text-sm">Production Technician at PsiQuantum</p>
               <p className="text-gray-500 text-sm">Full Stack Dev at Hyatt Knitwear</p>
             </div>
           </div>
@@ -72,15 +74,16 @@ const About = () => {
             </div>
             <div>
               <p className="font-semibold text-[#001b5e]">Education</p>
-              <p className="text-gray-500 text-sm">Full Stack Web Development Bootcamp</p>
-              <p className="text-gray-500 text-sm">Continuously self-learning</p>
+              <p className="text-gray-500 text-sm">M.S. Software Development, Coventry University</p>
+              <p className="text-gray-500 text-sm">B.S. Business Information Systems, Middlesex University</p>
+              <p className="text-gray-500 text-sm">Full Stack Bootcamp, UC Berkeley Extension</p>
             </div>
           </div>
 
           <div className="flex items-center gap-3 p-4 bg-blue-600 rounded-xl">
             <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse" />
             <p className="text-white font-semibold text-sm">
-              Open to Junior Web Developer roles
+              Open to developer, automation &amp; part-time remote roles
             </p>
           </div>
         </div>

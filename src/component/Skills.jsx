@@ -1,6 +1,6 @@
 import React from "react";
-import { FaReact, FaNodeJs, FaPython, FaGithub, FaDatabase } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiSocketdotio, SiTailwindcss, SiOpenai, SiFastapi } from "react-icons/si";
+import { FaReact, FaNodeJs, FaPython, FaGithub, FaDatabase, FaMicroscope, FaChartLine, FaIndustry, FaShieldAlt } from "react-icons/fa";
+import { SiMongodb, SiExpress, SiSocketdotio, SiTailwindcss, SiOpenai, SiFastapi, SiMysql, SiPhp } from "react-icons/si";
 
 const skills = [
   { category: "Frontend", items: [
@@ -13,9 +13,11 @@ const skills = [
     { name: "Express", icon: <SiExpress className="text-gray-300" size={28} /> },
     { name: "Python", icon: <FaPython className="text-yellow-300" size={28} /> },
     { name: "FastAPI", icon: <SiFastapi className="text-teal-400" size={28} /> },
+    { name: "PHP", icon: <SiPhp className="text-indigo-300" size={28} /> },
   ]},
   { category: "Database & Cloud", items: [
     { name: "MongoDB", icon: <SiMongodb className="text-green-400" size={28} /> },
+    { name: "MySQL", icon: <SiMysql className="text-blue-300" size={28} /> },
     { name: "Cloudinary", icon: <span className="text-blue-300 font-bold text-sm">☁️</span> },
   ]},
   { category: "Tools & Other", items: [
@@ -24,6 +26,12 @@ const skills = [
     { name: "WebRTC", icon: <span className="text-orange-400 font-bold text-lg">RTC</span> },
     { name: "Git/GitHub", icon: <FaGithub className="text-white" size={28} /> },
     { name: "REST APIs", icon: <FaDatabase className="text-purple-400" size={28} /> },
+  ]},
+  { category: "Hardware & Lab", items: [
+    { name: "Optical Alignment", icon: <FaMicroscope className="text-sky-300" size={26} /> },
+    { name: "Spectrum & Power Measurement", icon: <FaChartLine className="text-pink-300" size={26} /> },
+    { name: "MES & Build Tracking", icon: <FaIndustry className="text-amber-300" size={26} /> },
+    { name: "Cleanroom / ESD", icon: <FaShieldAlt className="text-emerald-300" size={26} /> },
   ]},
 ];
 

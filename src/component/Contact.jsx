@@ -13,7 +13,7 @@ const Contact = () => {
           <div>
             <h2 className="text-2xl font-bold text-[#001b5e] mb-3">Get In Touch</h2>
             <p className="text-gray-600 leading-relaxed">
-              I'm currently open to Junior Web Developer opportunities. 
+              I'm currently open to developer, automation, and part-time remote opportunities. 
               Whether you have a question, a project idea, or just want to say hi — 
               my inbox is always open!
             </p>

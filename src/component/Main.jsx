@@ -44,8 +44,8 @@ const Main = () => {
 
         {/* Bio */}
         <p className="text-gray-400 text-base max-w-[500px] mb-8 leading-relaxed text-center lg:text-left">
-          Building full-stack web apps with React, Node.js, and Python. 
-          Passionate about real-time features, AI integrations, and community safety tech.
+          Building full-stack web apps with React, Node.js, and Python. Currently doing
+          precision photonics work at PsiQuantum and growing toward automation software engineering.
         </p>
 
         {/* CTA Buttons */}
@@ -57,7 +57,7 @@ const Main = () => {
             View Projects
           </a>
           <a
-            href="https://drive.google.com/file/d/1kSb1HAtGfEui4h4UxycitWYAjZTaowpb/view?usp=drive_link"
+            href="/Ahkar_Hein_Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="px-6 py-3 border border-blue-400 text-blue-400 rounded-lg font-semibold hover:bg-blue-400 hover:text-white transition duration-300"
